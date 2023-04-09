@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>regex</key>
+		<string>\s.+?=</string>
+		<key>color</key>
+		<string>#30B0C7FF</string>
+		<key>comment</key>
+		<string>attribute&apos;s name</string>
+	</dict>
+	<dict>
+		<key>regex</key>
+		<string>\&quot;.+?\&quot;</string>
+		<key>color</key>
+		<string>#00FFFFFF</string>
+		<key>comment</key>
+		<string>attribute&apos;s value</string>
+	</dict>
+	<dict>
+		<key>regex</key>
+		<string>\&quot;</string>
+		<key>color</key>
+		<string>#F375AAFF</string>
+		<key>comment</key>
+		<string>double-quote</string>
+	</dict>
+	<dict>
+		<key>regex</key>
+		<string>(&lt;|&lt;.+?\s|&lt;/.+?&gt;|&gt;|/&gt;)</string>
+		<key>color</key>
+		<string>#F375AAFF</string>
+		<key>comment</key>
+		<string>tag</string>
+	</dict>
+	<dict>
+		<key>regex</key>
+		<string>(&lt;.+?\s|&lt;/.+?&gt;|&gt;|/&gt;)</string>
+		<key>color</key>
+		<string>#FF8001FF</string>
+		<key>comment</key>
+		<string>equal sign</string>
+	</dict>
+</array>
+</plist>
